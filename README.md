@@ -9,6 +9,8 @@
 <!-- ne pas effacer les lignes ci-dessus et mettre à jour la progression régulièrement -->
 
 ## JOURNAL DE BORD
-
+cedric
+matheo : fait une partie de l'immage en noir et blanc
+eliasaa
 
 ## DOCUMENTATION
