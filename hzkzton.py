@@ -32,13 +32,13 @@ for x in range(660) :
          im_new.putpixel((x,y),(n_r,n_v,n_b))
          #((x,y),(n_r,n_v,n_b))
          rep=input("quelle couleur veut tu?rouge,vert,bleu")
-         return rep:
-            if rep==rouge:
-            im_new.putpixel(x,y),(n_r)
-            if rep==vert:
-            im_new.putpixel(x,y),(n_v)
-            if rep==bleu:
-            im_new.putpixel(x,y),(n_b)
+         if rep=="rouge":
+            im_new.putpixel((x,y),(n_r,0,0))
+         if rep=="vert":
+            im_new.putpixel((x,y),(0,n_v,0))
+         if rep=="bleu":
+            im_new.putpixel((x,y),(0,0,n_b))
+         #print(rep)
 
 
 # affichage de l'image
