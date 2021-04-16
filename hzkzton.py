@@ -24,13 +24,21 @@ for x in range(660) :
          p_rouge = pixel[0]
          p_vert =  pixel[1]
          p_bleu =  pixel[2]
-         n_r=v
-         n_v=b
-         n_b=r
+         n_r=p_vert
+         n_v=p_bleu
+         n_b=p_rouge
 
 # modification du pixel de coordonnées x, y
-         im_new.putpixel((x,y),(p_rouge,p_vert,p_bleu))
-         ((x,y),(n_r,n_v,n_b))
+         im_new.putpixel((x,y),(n_r,n_v,n_b))
+         #((x,y),(n_r,n_v,n_b))
+         rep=input("quelle couleur veut tu?rouge,vert,bleu")
+         return rep:
+            if rep==rouge:
+            im_new.putpixel(x,y),(n_r)
+            if rep==vert:
+            im_new.putpixel(x,y),(n_v)
+            if rep==bleu:
+            im_new.putpixel(x,y),(n_b)
 
 
 # affichage de l'image
