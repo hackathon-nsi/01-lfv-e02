@@ -13,6 +13,6 @@ cedric : Change les couleur des pixels, je les ai melangé (sa donne du violet).
 Suite a cela, jai demandé dans mon programe la couleurs souhaitée. Jai rencontrer une dificulter au niveau de ma reponse.
 le but: pouvoir mettre toute l'image dans une couleur particulières.
 
-matheo : fait une partie de l'immage en noir et en blanc.
+matteo : fait une partie de l'immage en noir et en blanc.
 
 elias : deplacer une partie de l'immage vers un autre endroit.
